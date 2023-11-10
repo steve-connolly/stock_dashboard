@@ -1,23 +1,85 @@
+<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <title>Stock Tracker</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div id="header">
-        <div id="title">
-            <img src="imagesSD/stock-market64px.png" width="48" height="48" alt="stockimage";>
-            <h2>Stock Tracker</h2>
-            <!-- Fix spacing between picture and text. Maybe increase width on border and add padding.-->
+    <nav>
+        <ul class="navbar">
+            <li>Stock Tracker</li>
+            <div class="float-right">
+                <li>Home</li>
+                <li>Contact</li>
+            </div>
+        </ul>
+    </nav>
+    <main class="main">
+        <div class="left">left
+            <table>
+                <h2>Summary</h2>
+                <tbody>
+                    <tr>
+                        <td>AAPL</td>
+                        <td>$100.50</td>
+                        <td><button>+</button></td>
+                    </tr>
+                    <tr>
+                        <td>AMZN</td>
+                        <td>$100.50</td>
+                        <td><button>+</button></td>
+                    </tr>
+                    <tr>
+                        <td>CVE</td>
+                        <td>$100.50</td>
+                        <td><button>+</button></td>
+                    </tr>
+                    <tr>
+                        <td>DIS</td>
+                        <td>$100.50</td>
+                        <td><button>+</button></td>
+                    </tr>
+                    <tr>
+                        <td>GOOGL</td>
+                        <td>$100.50</td>
+                        <td><button>+</button></td>
+                    </tr>
+                    <tr>
+                        <td>MSFT</td>
+                        <td>$100.50</td>
+                        <td><button>+</button></td>
+                    </tr>
+                    <tr>
+                        <td>RY</td>
+                        <td>$100.50</td>
+                        <td><button>+</button></td>
+                    </tr>
+                    <tr>
+                        <td>SHOP</td>
+                        <td>$100.50</td>
+                        <td><button>+</button></td>
+                    </tr>
+                    <tr>
+                        <td>SLF</td>
+                        <td>$100.50</td>
+                        <td><button>+</button></td>
+                    </tr>
+                    <tr>
+                        <td>TSLA</td>
+                        <td>$100.50</td>
+                        <td><button>+</button></td>
+                    </tr>
+                </tbody> <!--Finish editing table attributes-->
+            </table>
         </div>
-        <div id="navbar"> <!-- class vs. id? -->
-            <a href="#Home">Home</a>
-            <a href="#About">About</a>
-            <a href="Contact">Contact</a>
+        <div class="right">
+            <div class="charts">Charts</div>
+            <div class="bottom-div">
+                <div class="performance">Performance</div>
+                <div class="articles">Articles</div>
         </div>
-    </div>
-    
-    
-    <p></p>
+    </main>
 </body>
 </html>
