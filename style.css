@@ -1,3 +1,61 @@
-h1 {
-    color: blueviolet;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    list-style-type: none;
+    background-color: deepskyblue;
+    margin: 0;
+    padding: 20px 40px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.float-right {
+    float: right;
+}
+
+.main{
+    display: flex;
+    min-height: 92vh;
+}
+
+.left{
+    width: 30%;
+    background: orange;
+}
+.right{
+    width:70%;
+}
+
+table{
+    width:70%;
+    margin-top: 20px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.charts{
+    min-height: 40px;
+    
+}
+
+.performance{
+    min-height: 40px;
+    min-width: 40%;
+    background-color: crimson;
+}
+
+.articles{
+    min-height: 40px;
+    min-width: 60%;
+    background-color: aqua;
+}
+
+.bottom-div{
+    display: flex;
+    flex-direction: row;
 }
