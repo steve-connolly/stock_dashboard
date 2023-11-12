@@ -5,17 +5,22 @@
 
 .navbar {
     list-style-type: none;
-    background-color: deepskyblue;
+    background-color: midnightblue;
     margin: 0;
     padding: 20px 40px;
+    font-size: 20px;
+    color: white;
 }
 
 .navbar li {
     display: inline;
-}
+} 
 
 .float-right {
     float: right;
+    display: inline;
+    justify-content: space-evenly;
+    word-spacing: 40px;
 }
 
 .main{
