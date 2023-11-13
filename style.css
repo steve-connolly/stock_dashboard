@@ -8,7 +8,7 @@
     background-color: midnightblue;
     margin: 0;
     padding: 20px 40px;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
 }
 
@@ -30,32 +30,42 @@
 
 .left{
     width: 30%;
-    background: orange;
+    background: white;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    padding: 20px;
 }
 .right{
     width:70%;
 }
 
-table{
-    width:70%;
-    margin-top: 20px;
+table th, td{
+    width:75%;
     border: 1px solid black;
-    margin: 20px;
+    margin: 0 auto;
+    padding: 8px;
 }
 
+tr:nth-child(even){
+    background-color: aqua;
+    
+}
 .charts{
-    min-height: 40px;
+    min-height: 50vh;
     
 }
 
 .performance{
-    min-height: 40px;
+    min-height: 40vh;
     min-width: 40%;
     background-color: crimson;
 }
 
 .articles{
-    min-height: 40px;
+    min-height: 40vh;
     min-width: 60%;
     background-color: aqua;
 }
