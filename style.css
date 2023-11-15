@@ -47,12 +47,11 @@ h2{
 
 table{
     width:75%;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     margin: 0 auto;
 }
 th, td{ /*hover property*/
-    border-bottom: 1px solid black;
     padding: 8px;
 }
 
@@ -61,7 +60,12 @@ tr:nth-child(even){
 }
 
 tr td:nth-child(2) {
-    float: right;
+    text-align: right;
+}
+
+.button1{
+    display: block;
+    margin: 0 auto;
 }
 
 tr:nth-child(odd){
