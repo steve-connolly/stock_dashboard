@@ -18,8 +18,10 @@
 
 .float-right {
     float: right;
-    display: inline;
-    justify-content: space-evenly;
+    display: inline; 
+}
+
+.nav-items{
     word-spacing: 40px;
 }
 
@@ -56,6 +58,10 @@ th, td{ /*hover property*/
 
 tr:nth-child(even){
     background-color: #f2f9f1;
+}
+
+tr td:nth-child(2) {
+    float: right;
 }
 
 tr:nth-child(odd){
