@@ -5,7 +5,7 @@
 
 .navbar {
     list-style-type: none;
-    background-color: midnightblue;
+    background-color: #142d4c;
     margin: 0;
     padding: 20px 40px;
     font-size: 30px;
@@ -30,7 +30,7 @@
 
 .left{
     width: 30%;
-    background: white;
+    background: #9fd3c7;
 }
 
 h2{
@@ -38,21 +38,30 @@ h2{
     text-align: center;
     padding: 20px;
 }
+
 .right{
     width:70%;
 }
 
-table th, td{
+table{
     width:75%;
     border: 1px solid black;
+    border-radius: 5px;
     margin: 0 auto;
+}
+th, td{ /*hover property*/
+    border-bottom: 1px solid black;
     padding: 8px;
 }
 
 tr:nth-child(even){
-    background-color: aqua;
-    
+    background-color: #f2f9f1;
 }
+
+tr:nth-child(odd){
+ background-color: #e7eaf6;
+}
+
 .charts{
     min-height: 50vh;
     
