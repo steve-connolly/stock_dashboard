@@ -12,10 +12,6 @@ body {
     right: 0;
   }
 
-  body {
-   
-  }
-
   nav {
     background-color: #142d4c;
   }
@@ -24,6 +20,30 @@ body {
     font-size: 30px;
     color: white;
   }
+
+  .main {
+    min-height: 92vh;
+  }
+
+  .summary {
+    width: 30%;
+  }
+
+  h2 {
+    color: black;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .right {
+    width: 70%;
+  }
+
+  .table {
+    width:75%;
+    border: 2px solid black;
+    margin: 0 auto;
+}
   
   /* This box class is purely used for explaining how the bootstrap grid system works. */
   .box {
