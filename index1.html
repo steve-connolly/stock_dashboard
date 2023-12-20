@@ -10,18 +10,18 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <div class="container-fluid">
+        <div class="container-fluid px-5">
             <ul class="navbar-nav">
                 <li class="nav-item">Stock Tracker</li>
             </ul>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-label="Expand Navigation">
                 <span class="navbar-toggler-icon"></span><!--align text under button to the right-->
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="nav">
+            <div class="collapse navbar-collapse justify-content-end p-1" id="nav">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">About</a>  
-                    <a class="nav-link" href="#">Contact</a>        
+                    <a class="nav-link active" aria-current="page ms-4" href="#">Home</a>
+                    <a class="nav-link ms-4" href="#">About</a>  
+                    <a class="nav-link ms-4" href="#">Contact</a>        
                 </div>
             </div>
         </div>
@@ -29,133 +29,149 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-4 col-12 border">
-                <h1 class="text-center">Summary</h1>
-                <table class="table table-info">
+                <h1 class="text-center p-3">Summary</h1>
+                <table class="table table-info table-hover table-bordered border border-3 border-dark mx-auto" style="width: 75%">
                     <thead>
                         <tr>
-                            <th scope="col">Stock</th>
-                            <th scope="col">Price</th>
+                            <th class="text-center p-2" scope="col">Stock</th>
+                            <th class="text-center p-2" scope="col">Price</th>
                             <th scope="col"></th>
                         </tr>
                     </thead>
-                    <tbody id="summary">
+                    <tbody  id="summary">
                         <tr>
-                            <td>AAPL</td>
-                            <td>100.50</td>
-                            <td></td>
+                            <td class="p-2 align-middle">AAPL</td>
+                            <td class="text-end p-2 align-middle">$100.50</td>
+                            <td>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-secondary btn-sm">+</button>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <td>AMZN</td>
-                            <td>100.50</td>
-                            <td></td>
+                            <td class="p-2 align-middle">AMZN</td>
+                            <td class="text-end p-2 align-middle">$100.50</td>
+                            <td>
+                                <div class="text-center">
+                                    <button type="button" class="btn btn-secondary btn-sm">+</button>
+                                </div>
+                            </td>
                         </tr>
                         <tr>
-                            <td>CVE</td>
-                            <td>100.50</td>
-                            <td></td>
+                            <td class="p-2 align-middle">CVE</td>
+                            <td class="text-end p-2 align-middle">$100.50</td>
+                            <td><div class="text-center">
+                                <button type="button" class="btn btn-secondary btn-sm">+</button>
+                            </div></td>
                         </tr>
                         <tr>
-                            <td>DIS</td>
-                            <td>100.50</td>
-                            <td></td>
+                            <td class="p-2 align-middle">DIS</td>
+                            <td class="text-end p-2 align-middle">$100.50</td>
+                            <td><div class="text-center">
+                                <button type="button" class="btn btn-secondary btn-sm">+</button>
+                            </div></td>
                         </tr>
                         <tr>
-                            <td>GOOGL</td>
-                            <td>100.50</td>
-                            <td></td>
+                            <td class="p-2 align-middle">GOOGL</td>
+                            <td class="text-end p-2 align-middle">$100.50</td>
+                            <td><div class="text-center">
+                                <button type="button" class="btn btn-secondary btn-sm">+</button>
+                            </div></td>
                         </tr>
                         <tr>
-                            <td>MSFT</td>
-                            <td>100.50</td>
-                            <td></td>
+                            <td class="p-2 align-middle">MSFT</td>
+                            <td class="text-end p-2 align-middle">$100.50</td>
+                            <td><div class="text-center">
+                                <button type="button" class="btn btn-secondary btn-sm">+</button>
+                            </div></td>
                         </tr>
                         <tr>
-                            <td>RY</td>
-                            <td>100.50</td>
-                            <td></td>
+                            <td class="p-2 align-middle">RY</td>
+                            <td class="text-end p-2 align-middle">$100.50</td>
+                            <td><div class="text-center">
+                                <button type="button" class="btn btn-secondary btn-sm">+</button>
+                            </div></td>
                         </tr>
                         <tr>
-                            <td>SHOP</td>
-                            <td>100.50</td>
-                            <td></td>
+                            <td class="p-2 align-middle">SHOP</td>
+                            <td class="text-end p-2 align-middle">$100.50</td>
+                            <td><div class="text-center">
+                                <button type="button" class="btn btn-secondary btn-sm">+</button>
+                            </div></td>
                         </tr>
                         <tr>
-                            <td>SLF</td>
-                            <td>100.50</td>
-                            <td></td>
+                            <td class="p-2 align-middle">SLF</td>
+                            <td class="text-end p-2 align-middle">$100.50</td>
+                            <td><div class="text-center">
+                                <button type="button" class="btn btn-secondary btn-sm">+</button>
+                            </div></td>
                         </tr>
                         <tr>
-                            <td>TSLA</td>
-                            <td>100.50</td>
-                            <td></td>
+                            <td class="p-2 align-middle">TSLA</td>
+                            <td class="text-end p-2 align-middle">$100.50</td>
+                            <td><div class="text-center">
+                                <button type="button" class="btn btn-secondary btn-sm">+</button>
+                            </div></td>
                         </tr>
                     </tbody>
                 </table>
-                <div style="min-height: 60vh"></div>
+                <div style="min-height: 10px"></div>
             </div>
             <div class="col-md-8 col-12 border">
-                <h1 class=text-center>Charts</h1>
-                <div style="min-height: 50vh;"></div>
+                <h1 class="text-center p-3">Charts</h1>
             </div>
         </div>
         <div class="row">
             <div class="col-3 offset-4 border">
-                <h1 class="text-center">Performance</h1>
-                <table class="table table-info">
-                    <thead>
-                        <tr>
-                            <th scope="col">Stock</th>
-                            <th scope="col">Price</th>
-                            <th scope="col"></th>
-                        </tr>
-                    </thead>
-                    <tbody id="summary">
+                <h1 class="text-center pb-3 ">Performance</h1>
+                <table class="table table-info table-hover table-bordered border border-3 border-dark mx-auto" style="width: 75%">
+                    <tbody id="performance">
                         <tr>
                             <td>Intraday</td>
-                            <td>%</td>
-                            <td>+/-</td>
+                            <td class="text-end">%</td>
+                            <td class="text-center">+/-</td>
                         </tr>
                         <tr>
                             <td>1 Week</td>
-                            <td>%</td>
-                            <td>+/-</td>
+                            <td class="text-end">%</td>
+                            <td class="text-center">+/-</td>
                         </tr>
                         <tr>
                             <td>1 Month</td>
-                            <td>%</td>
-                            <td>+/-</td>
+                            <td class="text-end">%</td>
+                            <td class="text-center">+/-</td>
                         </tr>
                         <tr>
                             <td>3 Months</td>
-                            <td>%</td>
-                            <td>+/-</td>
+                            <td class="text-end">%</td>
+                            <td class="text-center">+/-</td>
                         </tr>
                         <tr>
                             <td>6 Months</td>
-                            <td>%</td>
-                            <td>+/-</td>
+                            <td class="text-end">%</td>
+                            <td class="text-center">+/-</td>
                         </tr>
                         <tr>
                             <td>YTD</td>
-                            <td>%</td>
-                            <td>+/-</td>
+                            <td class="text-end">%</td>
+                            <td class="text-center">+/-</td>
                         </tr>
                         <tr>
                             <td>1 Year</td>
-                            <td>%</td>
-                            <td>+/-</td>
+                            <td class="text-end">%</td>
+                            <td class="text-center">+/-</td>
                         </tr>
                         <tr>
                             <td>3 Years</td>
-                            <td>%</td>
-                            <td>+/-</td>
+                            <td class="text-end">%</td>
+                            <td class="text-center">+/-</td>
                         </tr>
                     </tbody>
                 </table>
                 <div style="min-height: 40vh;"></div>
             </div>
             <div class="col-5 border">
-                <h1 class="text-center">Latest News</h1>
+                <h1 class="text-center pb-3">Latest News</h1>
             </div>
         </div>
     </div>
