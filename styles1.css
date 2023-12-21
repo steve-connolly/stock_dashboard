@@ -1,6 +1,6 @@
 body {
     margin-top: 40px; 
-    background-color: #9fd3c7;/* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
+    background-color: white/* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
   }
   
 body::before {
@@ -18,15 +18,6 @@ body::before {
     font-size: 30px;
 }
 
-.table tbody tr:nth-child(even){
-    background-color: #f2f9f1;
-}
-
-.table tbody tr:nth-child(odd){
-    background-color: #e7eaf6;
-}
-
-  
 @media (min-width: 576px) {
     body::before {
       content: "SM";
