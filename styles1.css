@@ -18,6 +18,14 @@ body::before {
     font-size: 30px;
 }
 
+.summary tr:nth-child(odd){
+  background-color: aqua;
+}
+
+#summary tr:nth-child(even) {
+  background-color: blueviolet;
+}
+
 @media (min-width: 576px) {
     body::before {
       content: "SM";
