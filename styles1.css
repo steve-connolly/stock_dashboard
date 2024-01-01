@@ -4,26 +4,30 @@ body {
   }
   
 body::before {
-    content: "XS";
-    color: red;
-    font-size: 2rem;
-    font-weight: bold;
-    position: fixed;
-    top: 0;
-    right: 0;
+  content: "XS";
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  right: 0;
   }
   
-.navbar {
-    color: white;
-    font-size: 30px;
+.navbar {  
+  color: white;
+  font-size: 30px;
 }
 
-.summary tr:nth-child(odd){
-  background-color: aqua;
+.table-design th {
+  background-color: #808080 !important;
 }
 
-#summary tr:nth-child(even) {
-  background-color: blueviolet;
+.table-design tr:nth-child(odd) > * {
+  background-color: aqua !important;
+}
+
+.table-design tr:nth-child(even) > * {
+  background-color: blueviolet !important;
 }
 
 @media (min-width: 576px) {
