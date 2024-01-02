@@ -16,6 +16,7 @@ body::before {
 .navbar {  
   color: white;
   font-size: 30px;
+  background-color: #00355f;
 }
 
 .table-design th {
@@ -23,11 +24,11 @@ body::before {
 }
 
 .table-design tr:nth-child(odd) > * {
-  background-color: aqua !important;
+  background-color: #00355f !important;
 }
 
 .table-design tr:nth-child(even) > * {
-  background-color: blueviolet !important;
+  background-color: #f47820 !important;
 }
 
 @media (min-width: 576px) {
