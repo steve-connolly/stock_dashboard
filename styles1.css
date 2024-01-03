@@ -23,12 +23,12 @@ body::before {
   background-color: #808080 !important;
 }
 
-.table-design tr:nth-child(odd) > * {
-  background-color: #00355f !important;
-}
-
 .table-design tr:nth-child(even) > * {
   background-color: #f47820 !important;
+}
+
+.table-design tr:nth-child(odd):not(:first-child) > * {
+  background-color: #00355f !important;
 }
 
 @media (min-width: 576px) {
