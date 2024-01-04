@@ -19,16 +19,16 @@ body::before {
   background-color: #00355f;
 }
 
-.table-design th {
-  background-color: #808080 !important;
-}
-
 .table-design tr:nth-child(even) > * {
   background-color: #f47820 !important;
 }
 
-.table-design tr:nth-child(odd):not(:first-child) > * {
+.table-design tr:nth-child(odd) > * {
   background-color: #00355f !important;
+}
+
+#header {
+  background-color: #808080 !important;
 }
 
 @media (min-width: 576px) {
