@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
     data.forEach((item) => {
       const row = document.createElement("tr");
-      row.innerHTML = `<td class="p-2 align-middle text-white">${item.stock}</td><td class="p-2 align-middle text-end text-white">${item.price}</td><td><button type="button" class="btn align-middle btn-secondary btn-sm">+</button></td>`;
+      row.innerHTML = `<td class="p-2 align-middle text-white">${item.stock}</td><td class="p-2 align-middle text-end text-white">${item.price}</td><td class="d-flex justify-content-center"><button type="button" class="btn btn-secondary btn-sm">+</button></td>`;
       tableBody.appendChild(row);
     });
   });
