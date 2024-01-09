@@ -1,6 +1,6 @@
 body {
     margin-top: 40px; 
-    background-color: white/* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
+    background-color: #E5E4E2 !important;/* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
   }
   
 body::before {
@@ -28,7 +28,7 @@ body::before {
 }
 
 #header {
-  background-color: #808080 !important;
+  background-color: #d3d6db !important;
 }
 
 @media (min-width: 576px) {
